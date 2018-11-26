@@ -4,16 +4,7 @@
  * This is your blank canvas. It is so beautiful.
  */
 
-function turnRight() {
-	turnLeft();
-	turnLeft();
-	turnLeft();
-}
-
-function turnAround() {
-	turnLeft();
-	turnLeft();
-}
+import "turns";
 
 function MoveBeeperToLedge() {
 	move();
@@ -27,5 +18,3 @@ function MoveBeeperToLedge() {
 	putBeeper();
 	move();
 }
-
-
